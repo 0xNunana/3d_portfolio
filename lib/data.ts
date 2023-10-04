@@ -96,10 +96,10 @@ export const skillsData = [
   "Tailwind",
   "React Native",
   "Prisma",
-  "MongoDB",
+ 
   "Redux",
-  "GraphQL",
-  "Apollo",
+ 
+
   "Express",
   "PostgreSQL",
   
