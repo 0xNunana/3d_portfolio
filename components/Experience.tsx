@@ -57,7 +57,7 @@ const Experience = () => {
      <Timeline position="alternate">
      {experiencesData.map((exp,index)=>(
         
-                <TimelineItem  className='animate-fade-in delay-1000'>
+                <TimelineItem key={index} className='animate-fade-in delay-1000'>
             <TimelineOppositeContent
           sx={{ m: 'auto 0' }}
           variant="body2"
