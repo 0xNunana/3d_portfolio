@@ -7,7 +7,7 @@ import { NavViewer } from '@/lib/navView'
 
 
 const About = () => {
-  const {ref} = NavViewer('About',0.65)
+  const {ref} = NavViewer('About',0.55)
  
   return (
     // add a scroll margin top to push the section down to a level where everthing can be seen when there is a scroll

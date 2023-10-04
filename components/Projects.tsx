@@ -7,7 +7,7 @@ import ProjectCard from './ProjectCard'
 import { NavViewer } from '@/lib/navView'
 
 const Projects = () => {
- const {ref}=NavViewer('Projects',0.1)
+ const {ref}=NavViewer('Projects',0.3)
 
   
   
