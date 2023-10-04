@@ -35,11 +35,19 @@ export const links = [
 
 export const experiencesData = [
   {
+    title: "University Graduate",
+    location: "KNUST, Ghana",
+    description:
+      "I graduated after 6 months of studying. I immediately found a job as a front-end developer.",
+    icon: React.createElement(LuGraduationCap),
+    date: "2014 -2018",
+  },
+  {
     title: "Quality Assurance Specialist",
     location: "BlueSkies, Ghana",
     description:
       "I graduated after 6 months of studying. I immediately found a job as a front-end developer.",
-    icon: React.createElement(LuGraduationCap),
+      icon: React.createElement(CgWorkAlt),
     date: "2018 -2019",
   },
   {
