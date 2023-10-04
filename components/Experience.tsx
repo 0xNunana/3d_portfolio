@@ -10,12 +10,13 @@ import TimelineSeparator from '@mui/lab/TimelineSeparator';
 import TimelineConnector from '@mui/lab/TimelineConnector';
 import TimelineContent from '@mui/lab/TimelineContent';
 import TimelineOppositeContent from '@mui/lab/TimelineOppositeContent';
-import {motion} from 'framer-motion'
+import { NavViewer } from '@/lib/navView';
 
 
 const Experience = () => {
+    const {ref}=NavViewer('Experience',0.75)
   return (
-    <section id="experience"  className="scroll-mt-28 mb-28 sm:mb-40">
+    <section id="experience"  className="scroll-mt-28 mb-28 sm:mb-40" ref={ref}>
     <SectionTitle>My experience</SectionTitle>
     {/* <VerticalTimeline lineColor="">
       {experiencesData.map((item, index) => (
@@ -56,7 +57,7 @@ const Experience = () => {
      <Timeline position="alternate">
      {experiencesData.map((exp,index)=>(
         
-                <TimelineItem >
+                <TimelineItem  className='animate-fade-in delay-1000'>
             <TimelineOppositeContent
           sx={{ m: 'auto 0' }}
           variant="body2"
