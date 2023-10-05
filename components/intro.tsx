@@ -1,15 +1,18 @@
 'use client'
 
 import Image from 'next/image'
-import React from 'react'
 import { motion } from 'framer-motion'
 import Link from 'next/link'
 import {BsArrowRight, BsGithub, BsLinkedin} from 'react-icons/bs'
 import {HiDownload} from 'react-icons/hi'
 
+import { NavViewer } from '@/lib/navView'
+
+
 const Intro = () => {
+   const {ref}=NavViewer('Home')
   return (
-  <section className='mb-28 max-w-[50rem] sm:mb-0 text-center'>
+  <section className='mb-28 max-w-[50rem] sm:mb-0 text-center scroll-mt-40' id='home' ref={ref}>
     <div className='flex items-center justify-center'>
 <motion.div 
 initial={{opacity:0 ,scale:0}}
@@ -25,14 +28,14 @@ transition={{
 </motion.div>
 
     </div>
-    <motion.p className='font-montserrat mb-10 mt-4 px-4 text-2xl font-medium !leading-[1.5] sm:text-4xl'
+    <motion.h1 className='font-montserrat mb-10 mt-4 px-4 text-2xl font-medium !leading-[1.5] sm:text-4xl'
     initial={{opacity:0 , y:100}}
     animate={{opacity:1, y:0}}
     >
      <span className='font-bold font-palanquin'> Hello, I&apos;m Kudaya Paul Yao</span>. 
-    I&apos;m a <span className='font-bold font-palanquin'>Software Developer</span> with <span className='font-bold font-palanquin'>5 years</span> of 
-    experience. I enjoy building seamless applications. I&apos;m super competent in <span className='font-bold font-palanquin'>React (next.js)</span>
-</motion.p>
+    A <span className='font-bold font-palanquin'>Software Developer</span> with <span className='font-bold font-palanquin'>{new Date().getFullYear()- 2018} years</span> of 
+    experience. I enjoy building seamless applications. I&apos;m super competent in <span className='font-bold font-palanquin'>React (Next.js)</span>.
+</motion.h1>
 <motion.div    
 initial={{opacity:0 , y:100}}
     animate={{opacity:1, y:0}} 
@@ -46,10 +49,10 @@ initial={{opacity:0 , y:100}}
     <Link  href='/CV.pdf' download className='flex cursor-pointer gap-2 items-center group hover:scale-105 active:scale-100 bg-white transition  border-coral-red rounded-full text-coral-red px-7 py-3 border'>
         Download CV <HiDownload className='group-hover:animate-ping'/>
     </Link>
-    <Link href='' className='p-4 bg-white flex  group hover:scale-110 active:scale-100 transition border-coral-red items-center gap-2 text-gray-700 rounded-full border'>
+    <Link href='https://linkedin.com/in/paul-yao-kudaya' className='p-4 bg-white flex  group hover:scale-110 active:scale-100 transition border-coral-red items-center gap-2 text-gray-700 rounded-full border'>
         <BsLinkedin/>
     </Link>
-    <Link href='' className='p-4 bg-white border group hover:scale-110 active:scale-100 transition border-coral-red flex items-center gap-2 text-gray-700 rounded-full'>
+    <Link href='https://github.com/0xnunana' className='p-4 bg-white border group hover:scale-110 active:scale-100 transition border-coral-red flex items-center gap-2 text-gray-700 rounded-full'>
         <BsGithub/>
     </Link>
 </motion.div>

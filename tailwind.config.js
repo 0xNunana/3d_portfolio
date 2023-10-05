@@ -23,7 +23,32 @@ module.exports = {
         "pale-blue": "#F5F6FF",
         "white-400": "rgba(255, 255, 255, 0.80)"
       },
+
+      keyframes: {
+				"fade-in": {
+					"0%": {
+						opacity: "0%",
+					},
+					"75%": {
+						opacity: "0%",
+					},
+					"100%": {
+						opacity: "100%",
+					},
+				},
+      },
+     
+      animation: {
+				"fade-in": "fade-in 3s ease-in-out forwards",
+      }
+
+
+
+
+
+
     },
   },
   plugins: [],
+  darkMode:'class'
 }
