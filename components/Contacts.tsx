@@ -27,7 +27,7 @@ const Contacts = () => {
  className='mb-20 sm:mb-80 scroll-mt-28' ref={ref}>
     <SectionTitle>Contact Me</SectionTitle>
     <p className='text-gray-500 text-center'>Please contact me at  {''}
-        <a className='underline cursor-pointer text-black' href='mailto:kudayapaul@gmail.com'>kudayapaul@gmail.com</a> {''} through this form.
+        <a className='underline cursor-pointer text-black dark:text-white' href='mailto:kudayapaul@gmail.com'>kudayapaul@gmail.com</a> {''} through this form.
     </p>
     <form className='w-[min(100%,38rem)] flex-col flex mt-10 px-1' 
         action={async (formData) => {
@@ -42,10 +42,10 @@ const Contacts = () => {
           }}>
         <input type='email' required maxLength={500} 
         name='senderEmail'
-        className=' h-14 border border-black/10 rounded-lg px-2 outline-none' placeholder='Your Email'/>
+        className=' h-14 border border-black/10 rounded-lg px-2 outline-none dark:bg-slate-300 dark:text-gray-700' placeholder='Your Email'/>
         <textarea  required 
         name='senderMessage'
-        className='border h-52 my-3   border-black/10 rounded-lg px-2 py-2 outline-none' placeholder='Your Message'/>
+        className='border h-52 my-3   border-black/10 rounded-lg px-2 py-2 outline-none dark:bg-slate-300 dark:text-gray-700' placeholder='Your Message'/>
       <SubmitBtn/>
       </form>
  </motion.section>

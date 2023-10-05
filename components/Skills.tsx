@@ -36,7 +36,7 @@ viewport={{
     once:true
 }}
 custom={i}
-className='bg-white border border-coral-red rounded-xl px-5 py-3'>
+className='bg-white border border-coral-red rounded-xl px-5 py-3 dark:bg-slate-300 dark:text-gray-900'>
     {skill}
 </motion.li>
         ))}
