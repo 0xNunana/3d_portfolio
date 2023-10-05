@@ -104,9 +104,12 @@ export const skillsData = [
   "Tailwind",
   "React Native",
   "Prisma",
- 
+ "Git",
+ "Linux",
   "Redux",
- 
+ "Jest",
+ "Firebase",
+ "Superbase",
 
   "Express",
   "PostgreSQL",

@@ -33,8 +33,8 @@ transition={{
     animate={{opacity:1, y:0}}
     >
      <span className='font-bold font-palanquin'> Hello, I&apos;m Kudaya Paul Yao</span>. 
-    I&apos;m a <span className='font-bold font-palanquin'>Software Developer</span> with <span className='font-bold font-palanquin'>5 years</span> of 
-    experience. I enjoy building seamless applications. I&apos;m super competent in <span className='font-bold font-palanquin'>React (next.js)</span>
+    A <span className='font-bold font-palanquin'>Software Developer</span> with <span className='font-bold font-palanquin'>{new Date().getFullYear()- 2018} years</span> of 
+    experience. I enjoy building seamless applications. I&apos;m super competent in <span className='font-bold font-palanquin'>React (Next.js)</span>.
 </motion.h1>
 <motion.div    
 initial={{opacity:0 , y:100}}
@@ -49,10 +49,10 @@ initial={{opacity:0 , y:100}}
     <Link  href='/CV.pdf' download className='flex cursor-pointer gap-2 items-center group hover:scale-105 active:scale-100 bg-white transition  border-coral-red rounded-full text-coral-red px-7 py-3 border'>
         Download CV <HiDownload className='group-hover:animate-ping'/>
     </Link>
-    <Link href='' className='p-4 bg-white flex  group hover:scale-110 active:scale-100 transition border-coral-red items-center gap-2 text-gray-700 rounded-full border'>
+    <Link href='https://linkedin.com/in/paul-yao-kudaya' className='p-4 bg-white flex  group hover:scale-110 active:scale-100 transition border-coral-red items-center gap-2 text-gray-700 rounded-full border'>
         <BsLinkedin/>
     </Link>
-    <Link href='' className='p-4 bg-white border group hover:scale-110 active:scale-100 transition border-coral-red flex items-center gap-2 text-gray-700 rounded-full'>
+    <Link href='https://github.com/0xnunana' className='p-4 bg-white border group hover:scale-110 active:scale-100 transition border-coral-red flex items-center gap-2 text-gray-700 rounded-full'>
         <BsGithub/>
     </Link>
 </motion.div>

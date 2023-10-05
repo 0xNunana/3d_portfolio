@@ -1,6 +1,7 @@
 import About from "@/components/About";
 import Contacts from "@/components/Contacts";
 import Experience from "@/components/Experience";
+import Footer from "@/components/Footer";
 
 import Projects from "@/components/Projects";
 import SectionDiv from "@/components/SectionDiv";
@@ -19,6 +20,7 @@ export default function Home() {
     <Skills/>
     <Experience/>
   <Contacts/>
+  <Footer/>
     </main>
   )
 }
