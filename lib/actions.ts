@@ -1,7 +1,7 @@
 'use server'
 import React from "react";
 import { Resend } from "resend"
-import ContactFormEmail from "@/components/ContactFormEmail";
+
 
 const resend = new Resend(process.env.NEXT_PUBLIC_RESEND_API_KEY);
 export const getErrorMessage = (error: unknown): string => {
@@ -26,7 +26,7 @@ export const sendEmail= async (formData:FormData)=>{
     const sender=formData.get('senderEmail')
     const message=formData.get('senderMessage')
 
-    console.log(sender,message)
+   
 if(!message || typeof message !== 'string'){
     return {
         error:'No message in field'
@@ -44,11 +44,11 @@ try {
         to:'kudayapaul@proton.me',
         subject:'Message from Portfolio Form',
         reply_to:sender,
-         //text:message
-        react: React.createElement(ContactFormEmail, {
-            message: message,
-            senderEmail: sender,
-          }),
+         text:message
+        // react: React.createElement(ContactFormEmail, {
+        //     message: message,
+        //     senderEmail: sender,
+        //   }),
     });
 } catch (error: unknown) {
     return {
