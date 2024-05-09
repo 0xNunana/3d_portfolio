@@ -34,7 +34,7 @@ transition={{
     >
      <span className='font-bold font-palanquin'> Hello, I&apos;m Kudaya Paul Yao</span>. 
     A <span className='font-bold font-palanquin'>Software Developer</span> with <span className='font-bold font-palanquin'>{new Date().getFullYear()- 2018} years</span> of 
-    experience. I enjoy building seamless applications. I&apos;m super competent in <span className='font-bold font-palanquin'>React (Next.js)</span>.
+    experience. I enjoy building seamless applications. I am super competent in <span className='font-bold font-palanquin'>React (Next.js)</span>.
 </motion.h1>
 <motion.div    
 initial={{opacity:0 , y:100}}
