@@ -118,6 +118,9 @@ export const skillsData = [
   "CSS",
   "JavaScript",
   "TypeScript",
+  "Python",
+  "C",
+  "C++",
   "React",
   "Next.js",
   "Node.js",
@@ -131,7 +134,8 @@ export const skillsData = [
  "Jest",
  "Firebase",
  "Superbase",
-
+"Strapi",
+"Payload",
   "Express",
   "PostgreSQL",
   

@@ -14,7 +14,7 @@ const {ref,inView}=useInView({
     if(inView){
       setActiveNav(pageName)
     }
-  },[inView,setActiveNav])
+  },[inView,setActiveNav,pageName])
 
 return { ref,};
 }
