@@ -5,8 +5,9 @@ import { LuGraduationCap } from "react-icons/lu";
 import nike from "@/public/nike.png";
 import car from "@/public/car.png";
 import jumia from "@/public/jumia.png";
-import uber from '@/public/home.png';
-import xing from '@/public/xing.png'
+import uber from "@/public/home.png";
+import xing from "@/public/xing.png";
+import { title } from "process";
 
 export const links = [
   {
@@ -49,7 +50,7 @@ export const experiencesData = [
     location: "BlueSkies, Ghana",
     description:
       "I graduated after 6 months of studying. I immediately found a job as a front-end developer.",
-      icon: React.createElement(CgWorkAlt),
+    icon: React.createElement(CgWorkAlt),
     date: "2018 -2019",
   },
   {
@@ -66,50 +67,53 @@ export const experiencesData = [
     description:
       "I'm now a full-stack developer working as a freelancer. My stack includes React, Next.js, TypeScript, Tailwind, Prisma and MongoDB. I'm open to full-time opportunities.",
     icon: React.createElement(FaReact),
-    date: "2023 - present",
+    date: "2023 - 2024",
+  },
+  {
+    title: "Software Developer",
+    location: "BoxPower, USA",
+    description:
+      "I'm now a full-stack developer working as a freelancer. My stack includes React, Next.js, TypeScript, Tailwind, Prisma and MongoDB. I'm open to full-time opportunities.",
+    icon: React.createElement(FaReact),
+    date: "2024 - present",
   },
 ] as const;
 
 export const projectsData = [
   {
     title: "CarDwom",
-    description:
-      "Frontend for a Car sales and rental startup",
-    tags: ["React", "Next.js", "Tailwind", ],
+    description: "Frontend for a Car sales and rental startup",
+    tags: ["React", "Next.js", "Tailwind"],
     imageUrl: car,
-    href:'https://car-dwom.vercel.app/'
+    href: "https://car-dwom.vercel.app/",
   },
   {
     title: "Xing",
-    description:
-      "Frontend of a delivery app ",
+    description: "Frontend of a delivery app ",
     tags: ["React Native", "TypeScript", "Expo", "Tailwind"],
     imageUrl: xing,
-    href:'https://qr.expo.dev/eas-update?updateId=b91688f2-e56e-4af0-b48c-0021e36fbf82&appScheme=exp&host=u.expo.dev'
+    href: "https://qr.expo.dev/eas-update?updateId=b91688f2-e56e-4af0-b48c-0021e36fbf82&appScheme=exp&host=u.expo.dev",
   },
   {
     title: "Nike",
-    description:
-      "Frontend clone of Nike ",
+    description: "Frontend clone of Nike ",
     tags: ["React", "TypeScript", "Next.js", "Tailwind"],
     imageUrl: nike,
-    href:'https://nike-seven-gamma.vercel.app/'
+    href: "https://nike-seven-gamma.vercel.app/",
   },
   {
     title: "Jumia Clone",
-    description:
-      "Frontend clone of Jumia homepage",
-    tags: ["React", "Next.js",  "Tailwind","TypeScript"],
+    description: "Frontend clone of Jumia homepage",
+    tags: ["React", "Next.js", "Tailwind", "TypeScript"],
     imageUrl: jumia,
-    href:'https://jumia-sand.vercel.app/'
+    href: "https://jumia-sand.vercel.app/",
   },
   {
     title: "Uber Clone",
-    description:
-      "Uber prototype",
-    tags: ["React Native", "Expo",  "Tailwind","Google Apis","TypeScript"],
+    description: "Uber prototype",
+    tags: ["React Native", "Expo", "Tailwind", "Google Apis", "TypeScript"],
     imageUrl: uber,
-    href:'https://qr.expo.dev/eas-update?updateId=3348e070-d989-469a-8202-aaf0b707fa8f&appScheme=exp&host=u.expo.dev'
+    href: "https://qr.expo.dev/eas-update?updateId=3348e070-d989-469a-8202-aaf0b707fa8f&appScheme=exp&host=u.expo.dev",
   },
 ] as const;
 
@@ -128,16 +132,19 @@ export const skillsData = [
   "Tailwind",
   "React Native",
   "Prisma",
- "Git",
- "Linux",
+  "Git",
+  "Linux",
   "Redux",
- "Jest",
- "Firebase",
- "Superbase",
-"Strapi",
-"Payload",
+  "Jest",
+  "Firebase",
+  "Superbase",
+  "Java",
+  "C++",
+  "C#",
+  "Python",
+
   "Express",
   "PostgreSQL",
-  
+
   "Framer Motion",
 ] as const;
