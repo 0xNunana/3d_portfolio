@@ -70,12 +70,20 @@ export const experiencesData = [
     date: "2023 - 2024",
   },
   {
-    title: "Software Developer",
+    title: "Software Engineer (Frontend)",
     location: "BoxPower, USA",
     description:
       "I'm now a full-stack developer working as a freelancer. My stack includes React, Next.js, TypeScript, Tailwind, Prisma and MongoDB. I'm open to full-time opportunities.",
     icon: React.createElement(FaReact),
     date: "2024 - present",
+  },
+  {
+    title: "Master's Degree in Computer Science",
+    location: "University of East London, UK",
+    description:
+      "I graduated after 6 months of studying. I immediately found a job as a front-end developer.",
+    icon: React.createElement(LuGraduationCap),
+    date: "On-going",
   },
 ] as const;
 
