@@ -196,15 +196,11 @@ export const legacyProjectsData = [
     title: "Jumia Clone",
     description: "Frontend clone of Jumia homepage",
     tags: ["React", "Next.js", "Tailwind", "TypeScript"],
-    description: "Frontend clone of Jumia homepage",
-    tags: ["React", "Next.js", "Tailwind", "TypeScript"],
     imageUrl: jumia,
     href: 'https://jumia-sand.vercel.app/'
   },
   {
     title: "Uber Clone",
-    description: "Uber prototype",
-    tags: ["React Native", "Expo", "Tailwind", "Google Apis", "TypeScript"],
     description: "Uber prototype",
     tags: ["React Native", "Expo", "Tailwind", "Google Apis", "TypeScript"],
     imageUrl: uber,
