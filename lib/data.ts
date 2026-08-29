@@ -161,8 +161,10 @@ export const projectsData = [
     description: "Application for skin-care brand with subscriptions and admin dashboard.",
     tags: ["TypeScript", "Next.js", "PostgreSQL", "Tailwind", "Paystack"],
     imageUrl: Belskora, // Placeholder
-    href: 'https://github.com/0xnunana/belskora'
-  },
+    href: 'https://www.belskora.com',
+    githubUrl: 'https://github.com/0xnunana/belskora'
+  }
+
   // {
   //   title: "TeamCard",
   //   category: "Web",
