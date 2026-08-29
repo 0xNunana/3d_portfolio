@@ -1,18 +1,17 @@
-'use client'
-import React from 'react';
-import SectionTitle from './SectionTitle';
-import { experiencesData } from '@/lib/data';
-import Timeline from '@mui/lab/Timeline';
-import TimelineItem from '@mui/lab/TimelineItem';
-import TimelineSeparator from '@mui/lab/TimelineSeparator';
-import TimelineConnector from '@mui/lab/TimelineConnector';
-import TimelineContent from '@mui/lab/TimelineContent';
-import TimelineOppositeContent from '@mui/lab/TimelineOppositeContent';
-import { NavViewer } from '@/lib/navView';
-
+"use client";
+import React from "react";
+import SectionTitle from "./SectionTitle";
+import { experiencesData } from "@/lib/data";
+import Timeline from "@mui/lab/Timeline";
+import TimelineItem from "@mui/lab/TimelineItem";
+import TimelineSeparator from "@mui/lab/TimelineSeparator";
+import TimelineConnector from "@mui/lab/TimelineConnector";
+import TimelineContent from "@mui/lab/TimelineContent";
+import TimelineOppositeContent from "@mui/lab/TimelineOppositeContent";
+import { NavViewer } from "@/lib/navView";
 
 const Experience = () => {
-    const {ref}=NavViewer('Experience',0.75)
+  const { ref } = NavViewer("Experience", 0.75);
   return (
     <section id="experience" className="scroll-mt-28 mb-28 sm:mb-40 max-w-[53rem] w-full" ref={ref}>
       <SectionTitle>Experience</SectionTitle>

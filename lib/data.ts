@@ -75,6 +75,14 @@ export const experiencesData = [
     icon: React.createElement(CgWorkAlt),
     date: "2018 - 2019",
   },
+  {
+    title: "Master's Degree in Computer Science",
+    location: "University of East London, UK",
+    description:
+      "I graduated after 6 months of studying. I immediately found a job as a front-end developer.",
+    icon: React.createElement(LuGraduationCap),
+    date: "On-going",
+  },
 ] as const;
 
 export const educationData = [

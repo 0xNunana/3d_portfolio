@@ -1,4 +1,4 @@
-'use client'
+"use client";
 
 import React, { useState } from 'react'
 import SectionTitle from './SectionTitle'
@@ -102,7 +102,7 @@ const Projects = () => {
         </AnimatePresence>
       </div>
     </section>
-  )
-}
+  );
+};
 
-export default Projects
+export default Projects;
