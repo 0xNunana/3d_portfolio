@@ -9,12 +9,19 @@ import { BsCodeSlash } from "react-icons/bs";
 import nike from "@/public/nike.png";
 import car from "@/public/car.png";
 import jumia from "@/public/jumia.png";
+<<<<<<< HEAD
 import uber from '@/public/home.png';
 import xing from '@/public/xing.png'
 import DermaMnist from '@/public/dermamnist.png'
 import Beulah from '@/public/beulah.png'
 import Belskora from '@/public/belskora.png'
 import Sabi from '@/public/Sabi.png'
+=======
+import uber from "@/public/home.png";
+import xing from "@/public/xing.png";
+import { title } from "process";
+
+>>>>>>> 72f9392e1706e4349254fcf5a731e527f4e39bfc
 export const links = [
   {
     name: "Home",
@@ -55,11 +62,20 @@ export const experiencesData = [
     date: "2024 - Present",
   },
   {
+<<<<<<< HEAD
     title: "Frontend Developer",
     location: "Envisio Live",
     description: "Building and maintaining modern web applications and user experiences, with a focus on reusable frontend architecture, performance and product usability.",
     icon: React.createElement(FaReact),
     date: "2023 - 2024",
+=======
+    title: "Quality Assurance Specialist",
+    location: "BlueSkies, Ghana",
+    description:
+      "I graduated after 6 months of studying. I immediately found a job as a front-end developer.",
+    icon: React.createElement(CgWorkAlt),
+    date: "2018 -2019",
+>>>>>>> 72f9392e1706e4349254fcf5a731e527f4e39bfc
   },
   {
     title: "Frontend Developer",
@@ -69,11 +85,28 @@ export const experiencesData = [
     date: "2019 - 2022",
   },
   {
+<<<<<<< HEAD
     title: "QA Specialist",
     location: "Blue Skies",
     description: "Worked in quality assurance, developing an early foundation in software quality, testing, process discipline and defect identification.",
     icon: React.createElement(CgWorkAlt),
     date: "2018 - 2019",
+=======
+    title: "Software Developer",
+    location: "Envisio Live, Ghana",
+    description:
+      "I'm now a full-stack developer working as a freelancer. My stack includes React, Next.js, TypeScript, Tailwind, Prisma and MongoDB. I'm open to full-time opportunities.",
+    icon: React.createElement(FaReact),
+    date: "2023 - 2024",
+  },
+  {
+    title: "Software Developer",
+    location: "BoxPower, USA",
+    description:
+      "I'm now a full-stack developer working as a freelancer. My stack includes React, Next.js, TypeScript, Tailwind, Prisma and MongoDB. I'm open to full-time opportunities.",
+    icon: React.createElement(FaReact),
+    date: "2024 - present",
+>>>>>>> 72f9392e1706e4349254fcf5a731e527f4e39bfc
   },
 ] as const;
 
@@ -117,6 +150,7 @@ export const educationData = [
 
 export const projectsData = [
   {
+<<<<<<< HEAD
     title: "DermaMNIST",
     category: "Research",
     status: "Completed / Research Project",
@@ -191,19 +225,45 @@ export const legacyProjectsData = [
     tags: ["React", "TypeScript", "Next.js", "Tailwind"],
     imageUrl: nike,
     href: 'https://nike-seven-gamma.vercel.app/'
+=======
+    title: "CarDwom",
+    description: "Frontend for a Car sales and rental startup",
+    tags: ["React", "Next.js", "Tailwind"],
+    imageUrl: car,
+    href: "https://car-dwom.vercel.app/",
+  },
+  {
+    title: "Xing",
+    description: "Frontend of a delivery app ",
+    tags: ["React Native", "TypeScript", "Expo", "Tailwind"],
+    imageUrl: xing,
+    href: "https://qr.expo.dev/eas-update?updateId=b91688f2-e56e-4af0-b48c-0021e36fbf82&appScheme=exp&host=u.expo.dev",
+  },
+  {
+    title: "Nike",
+    description: "Frontend clone of Nike ",
+    tags: ["React", "TypeScript", "Next.js", "Tailwind"],
+    imageUrl: nike,
+    href: "https://nike-seven-gamma.vercel.app/",
+>>>>>>> 72f9392e1706e4349254fcf5a731e527f4e39bfc
   },
   {
     title: "Jumia Clone",
     description: "Frontend clone of Jumia homepage",
     tags: ["React", "Next.js", "Tailwind", "TypeScript"],
     imageUrl: jumia,
+<<<<<<< HEAD
     href: 'https://jumia-sand.vercel.app/'
+=======
+    href: "https://jumia-sand.vercel.app/",
+>>>>>>> 72f9392e1706e4349254fcf5a731e527f4e39bfc
   },
   {
     title: "Uber Clone",
     description: "Uber prototype",
     tags: ["React Native", "Expo", "Tailwind", "Google Apis", "TypeScript"],
     imageUrl: uber,
+<<<<<<< HEAD
     href: 'https://qr.expo.dev/eas-update?updateId=3348e070-d989-469a-8202-aaf0b707fa8f&appScheme=exp&host=u.expo.dev'
   }
 ] as const;
@@ -228,3 +288,40 @@ export const skillsData = {
     "Jupyter", "Pandas", "NumPy", "Matplotlib", "Experimentation", "Data Analysis"
   ]
 };
+=======
+    href: "https://qr.expo.dev/eas-update?updateId=3348e070-d989-469a-8202-aaf0b707fa8f&appScheme=exp&host=u.expo.dev",
+  },
+] as const;
+
+export const skillsData = [
+  "HTML",
+  "CSS",
+  "JavaScript",
+  "TypeScript",
+  "Python",
+  "C",
+  "C++",
+  "React",
+  "Next.js",
+  "Node.js",
+  "Git",
+  "Tailwind",
+  "React Native",
+  "Prisma",
+  "Git",
+  "Linux",
+  "Redux",
+  "Jest",
+  "Firebase",
+  "Superbase",
+  "Java",
+  "C++",
+  "C#",
+  "Python",
+
+  "Express",
+  "PostgreSQL",
+
+  "Framer Motion",
+] as const;
+>>>>>>> 72f9392e1706e4349254fcf5a731e527f4e39bfc
