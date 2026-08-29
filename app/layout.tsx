@@ -47,6 +47,7 @@ export default function RootLayout({
           <Themer />
           <Toaster position='top-right' />
         </ActiveContextProvider>
+        <Analytics />
       </body>
     </html>
   );
